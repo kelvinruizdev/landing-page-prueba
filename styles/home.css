@@ -1,3 +1,54 @@
-.nav {
-    
+:root {
+    --color-comun: #005dab;
+  }
+
+nav { 
+    height: 52px;
+}
+button{
+    color: white;
+}
+
+.bluecolor{
+    background-color: var(--color-comun);;
+}
+
+.container{
+    margin: 0px 90px 0px 90px !important;
+}
+
+.transparent{
+    background-color: transparent;
+}
+
+.logo{
+    width: 165px;
+    height: 45px;
+    margin: 5px 0px 5px 0px; 
+    padding: 5px 2px 5px 2px ;
+}
+
+
+.first-navbar-button{
+    height: 50px;
+    border-left: 1px solid white;
+}
+
+.shoppin-cart{
+    margin: 11px 5px;
+}
+
+.badge{
+    border-radius: 50% !important;
+    background-color: var(--color-comun);
+    color: black;
+    text-align: center;
+    height: 15px;
+    width: 15px;
+    padding: 2px !important;
+}
+
+
+.second-navbar-button{
+    background-color: transparent;
 }
