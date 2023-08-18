@@ -2,8 +2,11 @@
     --color-comun: #005dab;
   }
 
+body{ font-family: "Open Sans", sans-serif !important; }
+
 nav { 
-    height: 52px;
+    height: 50px;
+    padding-top: 2px;
 }
 button{
     color: white;
@@ -19,19 +22,28 @@ button{
 
 .transparent{
     background-color: transparent;
+    border: none
 }
 
 .logo{
-    width: 165px;
+    width: 160px;
     height: 45px;
-    margin: 5px 0px 5px 0px; 
-    padding: 5px 2px 5px 2px ;
+    margin: 5px 0px 5px 7px; 
+    padding: 3px 2px 5px 2px ;
 }
 
+.login-button{ 
+    height: 45px;
+    font-size: 14px !important; 
+    padding: 0px !important;
+    font-weight: 400;
+}
 
 .first-navbar-button{
-    height: 50px;
-    border-left: 1px solid white;
+    height: 48px;
+    border: none;
+    border-left: 1px solid #243540;
+    padding: 0px 12px 0px 12px;
 }
 
 .shoppin-cart{
