@@ -7,7 +7,7 @@
 
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -21,6 +21,14 @@ button {
 
 a {
     /* color: white; */
+}
+.a-search-section{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.a-search-section:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 
 .a-none {
@@ -70,9 +78,9 @@ a {
 .first-navbar-button {
     height: 48px;
     border: none;
-    /* border-left: 1px solid #243540; */
     padding: 0px 15px 0px 15px !important;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .shoppin-cart {
@@ -91,21 +99,21 @@ a {
 
 .search-section {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), transparent), url(/img/background-1.jpg);
-    padding: 30px 0px 30px 0px;
+    padding: 30px 10px 30px 0px;
 }
 
 .search-section-title {
-    padding: 12px 10px 12px 0px;
-    font-size: 28px;
-    font-weight: 700;
-    text-decoration: none;
+    padding: 10px 10px 12px 10px;
 }
 
 .search-bar {
-    margin: 20px 0px 0px 0px;
-
+    margin: 25px 0px 0px 170px;
 }
 
+.form-control{
+    border-radius: 5px !important;
+    width: 260px;
+}
 
 .second-navbar-button {
     height: 48px;
@@ -142,15 +150,12 @@ a {
 }
 
 .apply-title {
-    font-size: 40px;
 }
 
 .apply-subtitle {
-    font-size: 22px;
 }
 
 .apply-paragraph {
-    font-size: 14px;
 }
 
 .apply-button {
@@ -285,11 +290,28 @@ span {
 .font-14-400 {
     font-size: 14px;
     font-weight: 400;
+    line-height: 23px;
 }
 
 .font-13-400 {
     font-size: 13px;
     font-weight: 400;
+}
+
+.font-40-700 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.font-22-700 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.font-28-700{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
 }
 
 .m {
@@ -322,9 +344,10 @@ span {
 .dropdown-content {
     display: none;
     position: absolute;
-    width: 100%;
-    overflow: auto;
+    width: 150px;
+    /* overflow: auto; */
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    background-color: white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -336,6 +359,7 @@ span {
     color: #000000;
     padding: 5px;
     text-decoration: none;
+    background-color: white;
 }
 
 .dropdown-content a:hover {
