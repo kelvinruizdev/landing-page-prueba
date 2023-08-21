@@ -236,7 +236,7 @@ a {
 .border-bottom-short {
     border-bottom: 3px solid var(--main-blue);
     padding-bottom: 5px;
-    width: 33%;
+    width: auto;
 }
 
 .border-bottom-footer {
@@ -318,6 +318,12 @@ span {
     line-height: 38px;
 }
 
+.font-14-400{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
 .m {
     padding-top: 1200px !important;
 }
@@ -369,4 +375,21 @@ span {
 .dropdown-content a:hover {
     color: #FFFFFF;
     background-color: var(--color-nav-foot);
+}
+
+.contact-form{
+    width: 500px;
+    /* padding-top: 55px; */
+    padding: 40px 35px 150px 35px;
+    /* background-color: #243540; */
+    border-radius: 15px;
+    width: 600px;
+}
+.contact{
+    padding: 50px 0px 50px 0px;
+    width: 540px;
+}
+
+.red{
+    color: red
 }
