@@ -7,7 +7,7 @@
 
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 nav {
@@ -22,10 +22,12 @@ button {
 a {
     /* color: white; */
 }
-.a-search-section{
+
+.a-search-section {
     color: #FFFFFF;
     text-decoration: none;
 }
+
 .a-search-section:hover {
     color: #FFFFFF;
     text-decoration: underline;
@@ -70,17 +72,13 @@ a {
 
 .login-button {
     height: 45px;
-    font-size: 14px !important;
     padding: 0px !important;
-    font-weight: 400;
 }
 
 .first-navbar-button {
     height: 48px;
     border: none;
-    padding: 0px 15px 0px 15px !important;
-    font-size: 15px;
-    font-weight: 400;
+    padding: 0px 15px !important;
 }
 
 .shoppin-cart {
@@ -103,15 +101,18 @@ a {
 }
 
 .search-section-title {
+    width: 450px;
     padding: 10px 10px 12px 10px;
+    margin: 3px 0px;
+    letter-spacing: -1px;
 }
 
 .search-bar {
-    margin: 25px 0px 0px 170px;
+    margin: 25px 0px 0px 290px;
 }
 
-.form-control{
-    border-radius: 5px !important;
+.form-control {
+    border-radius: 3px !important;
     width: 260px;
 }
 
@@ -146,14 +147,11 @@ a {
     color: white;
 }
 
-.apply-title {
-}
+.apply-title {}
 
-.apply-subtitle {
-}
+.apply-subtitle {}
 
-.apply-paragraph {
-}
+.apply-paragraph {}
 
 .apply-button {
     background-color: var(--main-blue);
@@ -173,10 +171,20 @@ a {
     z-index: 5;
 }
 
+.letter-space-none{
+    letter-spacing: -0.5px;
+}
+.letter-space-1{
+    letter-spacing: 0.5px;
+}
+.letter-space-0{
+    letter-spacing: 0px;
+}
+
 .overview-section {
-    margin: 55px 0px 0px 30px;
-    padding: 10px 20px 0px 0px;
-    width: 50%;
+    margin: 55px 5px 0px 40px;
+    padding: 10px 0px 0px 0px;
+    width: 560px;
 }
 
 .overview-section p {
@@ -188,49 +196,64 @@ a {
 }
 
 .information-section {
-    margin: 55px 0px 0px 0px;
-    padding: 10px 20px 25px 20px;
+    margin: 55px 0px 0px 10px;
+    padding: 10px 20px 30px 20px;
     background-color: #243540;
     border-radius: 15px;
-    width: 600px;
+    width: 590px;
 }
 
 .information-section h3 {
     text-align: center;
-    padding: 20px 0px 5px 0px;
-    font-size: 25px;
-    font-weight: 300;
+    padding: 20px 0px 8px 0px;
     color: #9acdfe;
 }
 
 .information-section h5 {
     text-align: center;
-    padding: 10px 0px 15px 0px;
-    font-size: 20px;
-    font-weight: 600;
+    padding: 13px 0px 15px 0px;
     color: white;
+    margin-bottom: 20px;
 }
 
 .border-bottom {
     border-bottom: 1px solid #9acdfe;
 }
+.information-section-point{
 
-.information-section-point div {
-    padding-top: 15px;
-    color: white;
 }
 
-.information-section-point-psize {
-    font-size: 14px;
+.information-section-point div {
+    padding: 5px 0px 0px 5px; 
+    color: white;
 }
 
 .contact-form {
     background-color: white;
-    padding: 35px 35px 120px 35px;
-    margin: 50px;
-    box-shadow: 10px 5px 30px rgb(163, 163, 163);
+    margin: 50px 50px 50px 0px ;
+    box-shadow: 5px 5px 30px rgb(163, 163, 163);
     width: auto;
     border-radius: 10px;
+    width: 580px;
+    padding: 40px 35px 150px 35px;
+}
+
+.input-control{
+    height: auto;
+}
+
+.contact-section {
+    padding: 500px 0px 50px 0px;
+    margin: 0px 50px 0px 100px;
+    width: 550px;
+}
+
+.contact-section p{
+    padding: 0px !important;
+}
+
+.red {
+    color: red
 }
 
 .border-bottom-short {
@@ -266,13 +289,50 @@ span {
     font-size: 15px;
 }
 
-.a-footer {
-    text-decoration: none;
-    color: var(--font-footer-color);
+ul{
+    margin-left: -30px;
+    margin-top: 10px;
+    list-style-type: none;
 }
 
+li{
+    margin: 1px 0px;
+}
+
+.wrap{
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 0px 30px;
+}
+
+.paragraph{
+    margin-bottom: 10px;
+}
+
+.a-footer {
+    text-decoration: none;
+    color: var(--font-footer-color);    
+}
 .a-footer:hover {
     text-decoration: underline;
+}
+
+.a-unique{
+    text-decoration: underline;
+    color: var(--font-footer-color);    
+}
+.a-unique:hover{
+    text-decoration: none;  
+}
+
+.font-25-300{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.font-20-600{
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .font-16-700 {
@@ -280,7 +340,7 @@ span {
     font-weight: 700;
 }
 
-.font-15-400{
+.font-15-400 {
     font-size: 15px;
     font-weight: 400;
 }
@@ -288,12 +348,12 @@ span {
 .font-14-400 {
     font-size: 14px;
     font-weight: 400;
-    line-height: 23px;
 }
 
 .font-13-400 {
     font-size: 13px;
     font-weight: 400;
+    line-height: 23px;
 }
 
 .font-40-700 {
@@ -306,19 +366,19 @@ span {
     font-weight: 700;
 }
 
-.font-28-700{
+.font-28-700 {
     font-size: 28px;
     font-weight: 700;
     line-height: 33px;
 }
 
-.font-35-700{
+.font-35-700 {
     font-size: 35px;
     font-weight: 700;
     line-height: 38px;
 }
 
-.font-14-400{
+.font-14-400 {
     font-size: 14px;
     font-weight: 400;
     line-height: 23px;
@@ -377,19 +437,4 @@ span {
     background-color: var(--color-nav-foot);
 }
 
-.contact-form{
-    width: 500px;
-    /* padding-top: 55px; */
-    padding: 40px 35px 150px 35px;
-    /* background-color: #243540; */
-    border-radius: 15px;
-    width: 600px;
-}
-.contact{
-    padding: 50px 0px 50px 0px;
-    width: 540px;
-}
 
-.red{
-    color: red
-}
