@@ -3,41 +3,34 @@
     --color-nav-foot: rgb(34, 34, 34);
     --hover-button: #0f76d0;
     --font-footer-color: #c9c9c9;
+    --gray-33: #333333
 }
-
 
 body {
     font-family: "Open Sans", sans-serif;
 }
-
 nav {
     height: 50px;
     padding-top: 2px;
 }
-
 button {
     color: white;
-}
-
-a {
-    /* color: white; */
 }
 
 .a-search-section {
     color: #FFFFFF;
     text-decoration: none;
 }
-
 .a-search-section:hover {
     color: #FFFFFF;
-    text-decoration: underline;
+    text-decoration: underline #005dab;
+    
 }
 
 .a-none {
     text-decoration: none;
-    color: #333333;
+    color: var(--gray-33);
 }
-
 .a-none:hover {
     color: var(--main-blue);
 }
@@ -99,21 +92,21 @@ a {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), transparent), url(/img/background-1.jpg);
     padding: 30px 10px 30px 0px;
 }
-
 .search-section-title {
     width: 450px;
     padding: 10px 10px 12px 10px;
     margin: 3px 0px;
     letter-spacing: -1px;
 }
-
+.form-control {
+    border-radius: 5px !important;
+    width: 260px;
+}
 .search-bar {
     margin: 25px 0px 0px 290px;
 }
-
-.form-control {
-    border-radius: 3px !important;
-    width: 260px;
+.search-button{
+    width: 45px;
 }
 
 .second-navbar-button {
@@ -121,7 +114,6 @@ a {
     border: none;
     padding: 10px 28px;
 }
-
 .second-navbar-button:hover {
     height: 48px;
     border: none;
@@ -136,23 +128,14 @@ a {
     background-position: 0 0, 100%;
     background-repeat: repeat, no-repeat;
 }
-
 .apply-section-content {
     margin: 100px 100px;
     color: white;
 }
-
 .apply-section-content {
     margin: 90px 100px;
     color: white;
 }
-
-.apply-title {}
-
-.apply-subtitle {}
-
-.apply-paragraph {}
-
 .apply-button {
     background-color: var(--main-blue);
     border: 1px solid rgb(50, 50, 209);
@@ -160,7 +143,6 @@ a {
     padding: 12px 25px;
     font-size: 14px;
 }
-
 .apply-button:hover {
     top: 5px;
     left: 5px;
@@ -232,33 +214,42 @@ a {
     background-color: white;
     margin: 50px 50px 50px 0px ;
     box-shadow: 5px 5px 30px rgb(163, 163, 163);
-    width: auto;
     border-radius: 10px;
-    width: 580px;
+    width: 550px;
     padding: 40px 35px 150px 35px;
 }
 
 .input-control{
     height: auto;
+    padding: 3px;
+    margin: 0px !;
+}
+.input-control:focus{
+    border: 0 !important;
 }
 
 .contact-section {
     padding: 500px 0px 50px 0px;
-    margin: 0px 50px 0px 100px;
+    margin: 0px 50px 0px 70px;
     width: 550px;
+}
+.contact-section h3{
+    color: #343a40;
 }
 
 .contact-section p{
     padding: 0px !important;
+    color: var(--gray-33);
 }
 
-.red {
+.redcolor {
     color: red
 }
 
 .border-bottom-short {
     border-bottom: 3px solid var(--main-blue);
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
     width: auto;
 }
 
@@ -268,6 +259,7 @@ a {
 
 span {
     font-size: 12px;
+    color: var(--gray-33);
 }
 
 .border-light {
@@ -278,6 +270,7 @@ span {
 .form-title {
     font-size: 27px;
     font-weight: 700;
+    color: var(--gray-33);
 }
 
 .submit-button {
@@ -302,7 +295,8 @@ li{
 .wrap{
     display: flex; 
     flex-wrap: wrap;
-    margin: 0px 30px;
+    margin: 0px 50px;
+    padding: 0px;
 }
 
 .paragraph{
@@ -347,6 +341,11 @@ li{
 
 .font-14-400 {
     font-size: 14px;
+    font-weight: 400;
+}
+
+.font-16-400{
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -414,7 +413,7 @@ li{
 .dropdown-content {
     display: none;
     position: absolute;
-    width: 150px;
+    width: 200px;
     /* overflow: auto; */
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
     background-color: white;
@@ -436,5 +435,6 @@ li{
     color: #FFFFFF;
     background-color: var(--color-nav-foot);
 }
+
 
 
